@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<title>form page-3</title>
+    <style>
+        #register-form{
+            width: 200px;
+            background-color: blueviolet;
+            padding: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text-label{
+            margin: 0;
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+        .text-box{
+            width: auto;
+            height: auto;
+        }
+    </style>
+    </head>
+    <body style="background-color: rgb(119, 211, 124);">
+        <form id="register-form">
+            <h2 style="text-align: center;">Registration form</h2>
+            <div>
+                <p class="text-label">Full Name</p><input class="text-box" type="text" name="name">
+            </div>
+            <div>
+                <p class="text-label">Email</p><input class="text-box" type="email" name="email">
+            </div>
+            <div>
+                <p class="text-label">Phone number</p><input class="text-box" type="tel" name="phone number">
+            </div>
+        
+            <div>
+                <p class="text-label">Hallticket number</p><input class="text-box" type="number" name="hallticket number">
+            </div>
+
+            <div>
+                <p class="text-label">Course</p><span>B-Tech <input class="text-box" type="radio" name="B-tech"> M-Tech <input type="radio" name="M-tech"></span>
+            </div>
+            <div>
+                <p class="text-label">Branch</p>
+                <select>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Civil">Civil</option>
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                </select> 
+            </div>
+            <div>
+               <input style="margin-top: 20px; margin-bottom: 10px" class="text-box" type="submit" name="subit" value="Register">
+            </div>
+        </form>
+    </body>

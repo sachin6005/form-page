@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<title>form page</title>
+	<style>
+        #register-form{
+            width: 250px;
+            background-color: blueviolet;
+            padding: 25px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text-label{
+            margin: 0;
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+        .text-box{
+            width: auto;
+            height: auto;
+            
+        }
+        #tc{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+    </style>
+    </head>
+    <body style="background-color: cornflowerblue;">
+        <h2 style="text-align: center;">Register</h2>
+        <form id="register-form">
+        <div>
+            <p class="text-label"> First Name:</p> <input class="text-box" type="text" name="firstname">
+             <p class="text-label"> Last Name:</p> <input class="text-box" type="text" name="lastname">
+        </div>
+        <div>
+            <p class="text-label"> Email:</p> <input class="text-box" type="email" name="email">
+        </div>
+        <div>
+            <p class="text-label"> Password:</p> <input class="text-box" type="password" name="password">
+        </div>
+        <div>
+            <p class="text-label"> Confirm Password:</p> <input class="text-box" type="password" name="confirmpassword">
+        </div>
+        <div>
+            <p class="text-label"> Mobile Nuumber:</p> <input class="text-box" type="tel" pattern="[0-9]{2}-[0-9]{10}" placeholder="91-9999999999" name="mobilenumber">
+        </div>
+
+        <div>
+            <p class="text-label"> Gender:</p>
+           Female <input class="text-box" type="radio" name="female">
+            Male<input class="text-box" type="radio" name="male">
+        </div>
+        
+        
+        <div>
+            <p class="text-label"> Security Question:</p> 
+        </div>
+        <div>
+            <select>
+                <option value="lucky-number">what is your lucky number </option>     
+                <option value="favorite-color"> what is your favorite color</option>       
+            </select>
+        </div>
+        <div>
+            <textarea name="answer" rows="3" cols="20"></textarea>
+        </div>
+        <div>
+            <input id="tc" type="checkbox" name="t&c" value="accepted"> I agree with T&C
+        </div>
+         <div>
+             <input type="submit" value="Register">
+         </div>
+         </form>
+    </body>
+    </html>
+
