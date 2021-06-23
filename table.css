@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+    background-color: skyblue;
+     }
+table, td, th{
+           border: 2px solid black;
+           border-collapse: collapse;
+           font-size: 22px;
+           padding: 10px;
+
+             }
+ .week{
+     font-weight: bolder;
+ }  
